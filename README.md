@@ -47,3 +47,9 @@ pip는 파이썬 라이브러리(패키지)를 관리해 주는 관리자 프로
 ---
 
 numpy는 CPU에서만 연산이 가능하고 pytorch와 tensorflow는 CPU는 물론 GPU로 데이터를 옮겨서 연산이 가능합니다.
+
+---
+
+numpy.dim은 **dimension을 한 차원 증가시킨다음 concatenate한다는 점**에서 concatenation과 차이가 있습니다.
+
+numpy.dim은 실제로 2개의 numpy array를 각각 reshape한 뒤에 concatenate하는 것과 같은 연산입니다.
