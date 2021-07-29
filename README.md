@@ -1,3 +1,9 @@
+# 꼭 알아야하는 분류성능평가지표
+
+Precision, Recall
+
+[참고사이트](https://sumniya.tistory.com/26)
+
 # 실습 환경설정에 대한 유용한 정보들, 프로그램 용어를 정리합니다
 ---
 ### **가상환경(Virtual Environments)이란 자신이 원하는 Python 환경을 구축하기 위해 필요한 모듈만 담아 놓는 바구니라고 생각하면 됩니다.**
