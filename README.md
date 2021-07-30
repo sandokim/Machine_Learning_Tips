@@ -26,6 +26,19 @@ conda는 anaconda 환경에서의 명령어입니다.
 
 ---
 
+# Data Augmentation
+The transformations used by [35, 43, 32] include shifting, rotating and
+
+scaling images, as well as augmenting grey values. One transformation cited in each of the three
+
+papers is the application of a random deformation field. This random deformation field is applied to
+
+the image at the beginning of each training iteration. Hence, in every epoch, the network is training
+
+on a different version of the original data set.
+
+---
+
 ### **아나콘다 설치시 유의사항**
 
 아나콘다를 설치하면 아나콘다에 포함된 데이터 분석 라이브러리와 가장 잘 호환되는 버전의 파이썬도 함께 설치됩니다.
