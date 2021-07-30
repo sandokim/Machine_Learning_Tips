@@ -1,11 +1,32 @@
+# Data Augmentation
+The transformations used by [35, 43, 32] include shifting, rotating and
+
+scaling images, as well as augmenting grey values. One transformation cited in each of the three
+
+papers is the application of a random deformation field. This random deformation field is applied to
+
+the image at the beginning of each training iteration. Hence, in every epoch, the network is training
+
+on a different version of the original data set.
+
+# Max pooling vs Stride
+
+Strided convolution is used in
+
+place of max-pooling as it was found to yield slightly better results in the preliminary experiments.
+
+---
+
 # 꼭 알아야하는 분류성능평가지표
 
 Precision, Recall
 
 [참고사이트](https://sumniya.tistory.com/26)
 
-# 실습 환경설정에 대한 유용한 정보들, 프로그램 용어를 정리합니다
 ---
+
+# 실습 환경설정에 대한 유용한 정보들, 프로그램 용어를 정리합니다
+
 ### **가상환경(Virtual Environments)이란 자신이 원하는 Python 환경을 구축하기 위해 필요한 모듈만 담아 놓는 바구니라고 생각하면 됩니다.**
 
 즉 Python Virtual Envs처럼 각 가상환경(virtualenv1, 2, 3…)은 독립적으로 관리됩니다. 
@@ -23,19 +44,6 @@ GitHub 등의 저장소나 네트워크와 연계하고자 할 때 등으로 매
 Python에서 가상환경을 만드는 방법은 크게 2가지로 virtualenv와 conda를 사용합니다.
 
 conda는 anaconda 환경에서의 명령어입니다.
-
----
-
-# Data Augmentation
-The transformations used by [35, 43, 32] include shifting, rotating and
-
-scaling images, as well as augmenting grey values. One transformation cited in each of the three
-
-papers is the application of a random deformation field. This random deformation field is applied to
-
-the image at the beginning of each training iteration. Hence, in every epoch, the network is training
-
-on a different version of the original data set.
 
 ---
 
